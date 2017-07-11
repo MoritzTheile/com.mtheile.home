@@ -32,6 +32,7 @@ import static org.springframework.test.web.servlet.result.MockMvcResultMatchers.
  *
  * @see AuditResource
  */
+@SuppressWarnings("unused")
 @RunWith(SpringRunner.class)
 @SpringBootTest(classes = HomeApp.class)
 @Transactional
