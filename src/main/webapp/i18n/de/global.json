@@ -1,8 +1,11 @@
 {
     "global": {
-        "title": "Home",
+        "title": "MTheile.com",
         "browsehappy": "Sie benutzen einen <strong>veralteten</strong> Browser. Bitte <a href=\"http://browsehappy.com/?locale=de/\">aktualisieren Sie Ihren Browser</a>, um die Benutzerfreundlichkeit zu erhöhen.",
         "menu": {
+        	"item1": "Projekte & Kompetenzen",
+        	"item2": "TeamTable",
+        	"item3": "Kontakt",
             "home": "Startseite",
             "jhipster-needle-menu-add-element": "JHipster will add additional menu entries here (do not translate!)",
             "entities": {
@@ -10,13 +13,13 @@
                 "jhipster-needle-menu-add-entry": "JHipster will add additional entities here (do not translate!)"
             },
             "account": {
-                "main": "Zugang",
+                "main": "Login",
                 "settings": "Einstellungen",
                 "password": "Passwort",
                 "sessions": "Sitzungen",
                 "login": "Anmelden",
                 "logout": "Abmelden",
-                "register": "Registrierung"
+                "register": "Registrieren"
             },
             "admin": {
                 "main": "Administration",
