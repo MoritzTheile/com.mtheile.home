@@ -1,10 +1,12 @@
 <div class="row">
     <div class="col-md-3">
-        <span class="hipster img-fluid img-rounded"></span>
+        <!--span class="hipster img-fluid img-rounded"></span-->
     </div>
-    <div class="col-md-9">
-        <h1 class="display-4" jhiTranslate="home.title">Welcome, Java Hipster!</h1>
-        <p class="lead" jhiTranslate="home.subtitle">This is your homepage</p>
+    <div class="col-md-12">
+         <h1 style="text-align:center; margin-top:32px; font-size:48px" class="display-4" >Projekte &amp; Kompetenzen</h1>
+        <p style="text-align:center; margin-top:48px; font-size:32px" class="lead" >Softwarel&ouml;sungen, die es auf den Punkt bringen.</p>
+        <p style="text-align:center; margin-top:48px; font-size:32px" class="lead" >Leicht. Klar. Praktisch.</p>
+		<p style="text-align:center; margin-top:48px; font-size:18px" class="lead" >Wenn Sie Fragen haben oder eine Pr&auml;sentation in Ihrem Haus w&uuml;nschen, rufen Sie gerne an: </p>
 
         <div [ngSwitch]="isAuthenticated()">
             <div class="alert alert-success" *ngSwitchCase="true">
