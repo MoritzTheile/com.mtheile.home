@@ -10,6 +10,8 @@ import { HomeAdminModule } from './admin/admin.module';
 import { HomeAccountModule } from './account/account.module';
 import { HomeEntityModule } from './entities/entity.module';
 import { HomeTeamtableModule } from './teamtable/teamtable.module';
+import { HomeContactModule } from './contact/contact.module';
+import { HomeImpressumModule } from './impressum/impressum.module';
 
 import { customHttpProvider } from './blocks/interceptor/http.provider';
 import { PaginationConfig } from './blocks/config/uib-pagination.config';
@@ -38,6 +40,8 @@ import {
         HomeAccountModule,
         HomeEntityModule,
         HomeTeamtableModule,
+        HomeContactModule,
+        HomeImpressumModule,
         // jhipster-needle-angular-add-module JHipster will add new module here
     ],
     declarations: [

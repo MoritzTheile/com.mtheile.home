@@ -1,18 +1,17 @@
 import { Component, OnInit } from '@angular/core';
 import { NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 import { JhiEventManager } from 'ng-jhipster';
-import { Router } from '@angular/router';
 
 import { Account, LoginModalService, Principal } from '../shared';
 
 @Component({
-    selector: 'jhi-teamtable',
-    templateUrl: './teamtable.component.html',
+    selector: 'jhi-contact',
+    templateUrl: './contact.component.html',
     styleUrls: [
-        'teamtable.css'
+        'contact.css'
     ]
 })
-export class TeamtableComponent implements OnInit {
+export class ContactComponent implements OnInit {
     account: Account;
     modalRef: NgbModalRef;
 
