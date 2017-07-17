@@ -1,13 +1,26 @@
-<div class="row">
-    <div class="col-md-3">
-        <!--span class="hipster img-fluid img-rounded"></span-->
-    </div>
-    <div class="col-md-12">
-         <h1 style="text-align:center; margin-top:32px; font-size:48px" class="display-4" >Projekte &amp; Kompetenzen</h1>
-        <p style="text-align:center; margin-top:48px; font-size:32px" class="lead" >Softwarel&ouml;sungen, die es auf den Punkt bringen.</p>
-        <p style="text-align:center; margin-top:48px; font-size:32px" class="lead" >Leicht. Klar. Praktisch.</p>
-
-        <div [ngSwitch]="isAuthenticated()">
+<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h1 style="text-align: center; margin-top: 32px; font-size: 48px"
+				class="display-4">Projekte &amp; Kompetenzen</h1>
+			<p style="text-align: center; margin-top: 48px; font-size: 32px"
+				class="lead">Softwarel&ouml;sungen, die es auf den Punkt
+				bringen.</p>
+			<p style="text-align: center; margin-top: 48px; font-size: 32px"
+				class="lead">Leicht. Klar. Praktisch.</p>
+		</div>
+	</div>
+	<div class="row" style="margin-top: 128px">
+		<div class="col-md-12">
+			<p><small>Entwicklung von Web-Applikationen</small></p>
+			<p>Kontaktieren Sie mich.</p>
+			<p><large>Ich werden Ihr Softwareprojekt gerne analysieren und Ihnen
+				Optionen zur Durchf&uuml;hrung aufzeigen.</large></p>
+			<p>Machen Sie sich ein Bild:</p>
+		</div>
+	</div>
+</div>
+<!--div [ngSwitch]="isAuthenticated()">
             <div class="alert alert-success" *ngSwitchCase="true">
                 <span *ngIf="account" jhiTranslate="home.logged.message"
                     translateValues="{username: '{{account.login}}'}"> You are logged in as user "{{account.login}}". </span>
@@ -39,5 +52,4 @@
         <p>
             <span jhiTranslate="home.like">If you like JHipster, don't forget to give us a star on</span> <a href="https://github.com/jhipster/generator-jhipster" target="_blank" rel="noopener" jhiTranslate="home.github">Github</a>!
         </p>
-    </div>
-</div>
+    </div-->
