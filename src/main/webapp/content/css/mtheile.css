@@ -1,3 +1,6 @@
+.my-header-row{
+	margin-bottom: 64px;
+}
 .my-h1 {
 	text-align: center; 
 	margin-top: 32px; 
@@ -9,3 +12,25 @@
 	margin-top: 48px; 
 	font-size: 32px;
 }
+
+.article-row{
+	border-top: 1px solid #e2e2e2;
+}
+.article-row > *{
+	padding-top: 24px;
+	padding-bottom: 24px;
+}
+
+.description-column{
+	
+}
+
+.description-column h5{
+	margin-bottom: 24px;
+}
+
+.facts-column{
+	background-color: #ecf1f7;
+}
+
+

@@ -5,7 +5,11 @@ import { JhiLanguageHelper, StateStorageService } from '../../shared';
 
 @Component({
     selector: 'jhi-main',
-    templateUrl: './main.component.html'
+    templateUrl: './main.component.html',
+    styles: [
+    ' .maxwidth800{   max-width: 900px}',
+    '  .jh-card { padding: 0%; },'
+    ]
 })
 export class JhiMainComponent implements OnInit {
 
