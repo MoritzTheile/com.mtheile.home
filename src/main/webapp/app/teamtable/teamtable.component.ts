@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewEncapsulation } from '@angular/core';
 import { NgbModalRef } from '@ng-bootstrap/ng-bootstrap';
 import { JhiEventManager } from 'ng-jhipster';
 import { Router } from '@angular/router';
@@ -9,7 +9,8 @@ import { Account, LoginModalService, Principal } from '../shared';
     selector: 'jhi-teamtable',
     templateUrl: './teamtable.component.html',
     styleUrls: [
-        'teamtable.css'
+        'teamtable.css',
+        '../../content/css/mtheile.css'
     ]
 })
 export class TeamtableComponent implements OnInit {

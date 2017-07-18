@@ -21,6 +21,14 @@
 	padding-bottom: 24px;
 }
 
+.quote{
+	font-size: 14px;
+    font-weight: normal;
+    color: #7B90A9;
+    line-height: 28px;
+    text-align: left;
+    font-style: italic;
+}
 .description-column{
 	
 }
