@@ -34,7 +34,7 @@ spring:
             hibernate.cache.use_query_cache: false
             hibernate.generate_statistics: false
             hibernate.cache.region.factory_class: io.github.jhipster.config.jcache.NoDefaultJCacheRegionFactory
-   mail:
+    mail:
         host: smtp.1und1.de
         port: 587
         username: info@mtheile.com          #Replace this field with your Gmail username.
