@@ -1,1 +1,1 @@
-web:    java $JAVA_OPTS -Dserver.port=$PORT -jar  target/*.war
+web: java -Dserver.port=5000 -jar target/home-0.0.1-SNAPSHOT.war
