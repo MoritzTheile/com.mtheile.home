@@ -35,17 +35,18 @@ import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.transaction.annotation.Transactional;
 
-import com.mtheile.teamtable.home.HomeApp;
-import com.mtheile.teamtable.home.domain.Authority;
-import com.mtheile.teamtable.home.domain.User;
-import com.mtheile.teamtable.home.repository.UserRepository;
-import com.mtheile.teamtable.home.security.AuthoritiesConstants;
-import com.mtheile.teamtable.home.service.MailService;
-import com.mtheile.teamtable.home.service.UserService;
-import com.mtheile.teamtable.home.service.dto.UserDTO;
-import com.mtheile.teamtable.home.service.mapper.UserMapper;
-import com.mtheile.teamtable.home.web.rest.errors.ExceptionTranslator;
-import com.mtheile.teamtable.home.web.rest.vm.ManagedUserVM;
+import com.mtheile.home.HomeApp;
+import com.mtheile.home.domain.Authority;
+import com.mtheile.home.domain.User;
+import com.mtheile.home.repository.UserRepository;
+import com.mtheile.home.security.AuthoritiesConstants;
+import com.mtheile.home.service.MailService;
+import com.mtheile.home.service.UserService;
+import com.mtheile.home.service.dto.UserDTO;
+import com.mtheile.home.service.mapper.UserMapper;
+import com.mtheile.home.web.rest.UserResource;
+import com.mtheile.home.web.rest.errors.ExceptionTranslator;
+import com.mtheile.home.web.rest.vm.ManagedUserVM;
 
 /**
  * Test class for the UserResource REST controller.

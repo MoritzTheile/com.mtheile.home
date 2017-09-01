@@ -1,7 +1,7 @@
 package com.mtheile.teamtable.home.web.rest;
 
 import io.github.jhipster.config.JHipsterProperties;
-import com.mtheile.teamtable.home.HomeApp;
+
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -13,6 +13,9 @@ import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
+
+import com.mtheile.home.HomeApp;
+import com.mtheile.home.web.rest.ProfileInfoResource;
 
 import static org.mockito.Mockito.when;
 import static org.springframework.test.web.servlet.request.MockMvcRequestBuilders.get;

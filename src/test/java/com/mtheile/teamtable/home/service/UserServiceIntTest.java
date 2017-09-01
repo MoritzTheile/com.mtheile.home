@@ -1,16 +1,19 @@
 package com.mtheile.teamtable.home.service;
 
-import com.mtheile.teamtable.home.HomeApp;
-import com.mtheile.teamtable.home.domain.User;
-import com.mtheile.teamtable.home.config.Constants;
-import com.mtheile.teamtable.home.repository.UserRepository;
-import com.mtheile.teamtable.home.service.dto.UserDTO;
-import com.mtheile.teamtable.home.service.util.RandomUtil;
 import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.mtheile.home.HomeApp;
+import com.mtheile.home.config.Constants;
+import com.mtheile.home.domain.User;
+import com.mtheile.home.repository.UserRepository;
+import com.mtheile.home.service.UserService;
+import com.mtheile.home.service.dto.UserDTO;
+import com.mtheile.home.service.util.RandomUtil;
+
 import org.springframework.test.context.junit4.SpringRunner;
 
 import org.springframework.data.domain.Page;

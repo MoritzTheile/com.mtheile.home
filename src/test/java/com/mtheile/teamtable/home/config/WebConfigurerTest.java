@@ -3,6 +3,8 @@ package com.mtheile.teamtable.home.config;
 import com.codahale.metrics.MetricRegistry;
 import com.codahale.metrics.servlet.InstrumentedFilter;
 import com.codahale.metrics.servlets.MetricsServlet;
+import com.mtheile.home.config.WebConfigurer;
+
 import io.github.jhipster.config.JHipsterConstants;
 import io.github.jhipster.config.JHipsterProperties;
 import io.github.jhipster.web.filter.CachingHttpHeadersFilter;

@@ -1,7 +1,5 @@
 package com.mtheile.teamtable.home.service;
 
-import com.mtheile.teamtable.home.HomeApp;
-import com.mtheile.teamtable.home.domain.User;
 import io.github.jhipster.config.JHipsterProperties;
 import org.junit.Before;
 import org.junit.Test;
@@ -17,6 +15,10 @@ import org.springframework.mail.MailSendException;
 import org.springframework.mail.javamail.JavaMailSenderImpl;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.thymeleaf.spring4.SpringTemplateEngine;
+
+import com.mtheile.home.HomeApp;
+import com.mtheile.home.domain.User;
+import com.mtheile.home.service.MailService;
 
 import javax.mail.Multipart;
 import javax.mail.internet.MimeBodyPart;

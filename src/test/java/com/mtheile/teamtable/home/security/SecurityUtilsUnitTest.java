@@ -7,6 +7,9 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContext;
 import org.springframework.security.core.context.SecurityContextHolder;
 
+import com.mtheile.home.security.AuthoritiesConstants;
+import com.mtheile.home.security.SecurityUtils;
+
 import java.util.ArrayList;
 import java.util.Collection;
 

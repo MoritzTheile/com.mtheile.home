@@ -1,10 +1,5 @@
 package com.mtheile.teamtable.home.web.rest;
 
-import com.mtheile.teamtable.home.HomeApp;
-import com.mtheile.teamtable.home.config.audit.AuditEventConverter;
-import com.mtheile.teamtable.home.domain.PersistentAuditEvent;
-import com.mtheile.teamtable.home.repository.PersistenceAuditEventRepository;
-import com.mtheile.teamtable.home.service.AuditEventService;
 import org.junit.Before;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -19,6 +14,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
 import org.springframework.test.web.servlet.setup.MockMvcBuilders;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.mtheile.home.HomeApp;
+import com.mtheile.home.config.audit.AuditEventConverter;
+import com.mtheile.home.domain.PersistentAuditEvent;
+import com.mtheile.home.repository.PersistenceAuditEventRepository;
+import com.mtheile.home.service.AuditEventService;
+import com.mtheile.home.web.rest.AuditResource;
 
 import java.time.Instant;
 import java.time.format.DateTimeFormatter;
